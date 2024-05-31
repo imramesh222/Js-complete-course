@@ -23,7 +23,22 @@
 // true;
 // console.log(true)
 let javaScriptIsFun=true;
+// console.log(javaScriptIsFun);
+// console.log(typeof true);
+// console.log(typeof javaScriptIsFun);
+// console.log(typeof 33);
+
+javaScriptIsFun='yes';
 console.log(javaScriptIsFun);
 console.log(typeof true);
 console.log(typeof javaScriptIsFun);
-console.log(typeof 3);
+console.log(typeof 33);
+
+let year;
+console.log(year);
+console.log(typeof year);
+year=1990;
+console.log(typeof year);
+
+
+console.log(typeof null);
