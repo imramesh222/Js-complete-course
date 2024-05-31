@@ -57,3 +57,22 @@
 // const ageJonas=now-1991;
 // const ageSarah=now-2018;
 // console.log(now-1991 > now-2018)
+
+
+//cooding challenge 1
+
+const markMass=78;
+
+const markHeight=1.69;
+
+const johnMass=92;
+
+const johnHeight=1.95;
+
+const markBMI=markMass/(markHeight**2);
+const johnBMI=johnMass/(johnHeight**2);
+console.log(markBMI);
+console.log(johnBMI);
+
+let markHigherBMI=(markBMI > johnBMI)
+console.log(markHigherBMI);
