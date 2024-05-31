@@ -43,12 +43,17 @@
 
 // console.log(typeof null);
 
-let age=30;
-console.log(age);
-age = 32;
-console.log(age);
-console.log(typeof age);
+// let age=30;
+// console.log(age);
+// age = 32;
+// console.log(age);
+// console.log(typeof age);
 
 
-myName='Ramesh Rawat';
-console.log(myName);
+// myName='Ramesh Rawat';
+// console.log(myName);
+
+// const now=2037;
+// const ageJonas=now-1991;
+// const ageSarah=now-2018;
+// console.log(now-1991 > now-2018)
