@@ -10,8 +10,9 @@ let firstname="Ramesh"
 console.log(firstname)
 let lastName='Rawat';
 
-let name = 'srish rawat'
+let fullName = 'srish rawat'
 let PI=3.1415
+console.log(fullName)
 
 let myFirstJob='Programmer'
 let mySecondJob='Teacher'
