@@ -82,4 +82,21 @@ const job ='teacher';
 const birthYear=1992;
 const year =2038;
 const john ="I'm " + firstName + ', a ' +(year - birthYear) + ' years old ' + job + '!';
-console.log(john)
+console.log(john);
+
+const johnNew=`I'm ${firstName}, a ${year-birthYear} years old ${job}!`;
+console.log(johnNew);
+
+const lastName='Rawat';
+const hobby='Coder'
+const age=24;
+const detail=`I'm ${lastName} a ${age} years old ${hobby}.`
+console.log(detail);
+// multi line string
+console.log(`string
+multiple
+lines`)
+console.log('string\n\
+multiple \n\
+lines');
+
