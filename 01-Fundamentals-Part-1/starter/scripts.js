@@ -166,3 +166,7 @@ console.log(String(22));
 console.log('I am '+23 + ' years old');
 console.log('23'-'10'-3)
 console.log('23'>'12')
+
+let n='1' + 1;
+n=n-1;
+console.log(n);
