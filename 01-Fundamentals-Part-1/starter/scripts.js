@@ -125,10 +125,6 @@
 
 // If else challenge
 
-let markHeight=parseFloat(prompt(`Enter Marks height:`));
-let markWeight=parseFloat(prompt(`Enter Marks weight:`));
-let johnHeight=parseFloat(prompt(`Enter john height:`));
-let johnWeight=parseFloat(prompt(`Enter john weight:`));
 // const markHeight=2.3
 
 // const markWeight=78;
@@ -137,14 +133,36 @@ let johnWeight=parseFloat(prompt(`Enter john weight:`));
 
 // const johnWeight=78;
 
-let markBMI=markWeight/(markHeight**2);
+// let markHeight=parseFloat(prompt(`Enter Marks height:`));
+// let markWeight=parseFloat(prompt(`Enter Marks weight:`));
+// let johnHeight=parseFloat(prompt(`Enter john height:`));
+// let johnWeight=parseFloat(prompt(`Enter john weight:`));
 
-let johnBMI=johnWeight/(johnHeight**2);
+// let markBMI=markWeight/(markHeight**2);
 
-if (markBMI>johnBMI){
-  console.log(`Mark's BMI ${markBMI} is higher than John's BMI ${johnBMI}`);
-}else if(markBMI<johnBMI) {
-  console.log(`John's BMI ${johnBMI} is higher than Mark's BMI ${markBMI}`);
-}else{
-  console.log(`Mark's BMI ${markBMI} is equal to John's BMI ${johnBMI}`);
-}
+// let johnBMI=johnWeight/(johnHeight**2);
+
+// if (markBMI>johnBMI){
+//   console.log(`Mark's BMI ${markBMI} is higher than John's BMI ${johnBMI}`);
+// }else if(markBMI<johnBMI) {
+//   console.log(`John's BMI ${johnBMI} is higher than Mark's BMI ${markBMI}`);
+// }else{
+//   console.log(`Mark's BMI ${markBMI} is equal to John's BMI ${johnBMI}`);
+// }
+
+// Type conversion 
+const inputYear='1991';
+console.log(Number(inputYear));
+console.log(Number(inputYear) + 13);
+
+console.log(Number('Ramesh'));
+
+console.log(typeof NaN);
+
+console.log(String(22));
+
+//Type coercion
+
+console.log('I am '+23 + ' years old');
+console.log('23'-'10'-3)
+console.log('23'>'12')
