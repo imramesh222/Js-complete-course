@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sum Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        input {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sum Calculator</h1>
+    <form id="sumForm">
+        <label for="number1">Number 1:</label>
+        <input type="number" id="number1" required><br>
+        <label for="number2">Number 2:</label>
+        <input type="number" id="number2" required><br>
+        <button type="submit">Calculate Sum</button>
+    </form>
+    <h2 id="result"></h2>
+
+    <script>
+        document.getElementById('sumForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the form from submitting
+
+            // Get the values of the input fields
+            const number1 = parseFloat(document.getElementById('number1').value);
+            const number2 = parseFloat(document.getElementById('number2').value);
+
+            // Calculate the sum
+            const sum = number1 + number2;
+
+            // Display the result
+            document.getElementById('result').textContent = 'Result: ' + sum;
+        });
+    </script>
+</body>
+</html>
