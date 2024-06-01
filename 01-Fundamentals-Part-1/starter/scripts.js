@@ -112,13 +112,39 @@
 //   console.log(`he is ${age} years old and can't start driving he has ${yearsLeft} years left`);
 // }
 
-const birthYear =2012;
-let century;
-if (birthYear<=2000){
-  century=20;
-  console.log('he was born in the 20th century');
+// const birthYear =2012;
+// let century;
+// if (birthYear<=2000){
+//   century=20;
+//   console.log('he was born in the 20th century');
+// }else{
+//   century=21;
+//   console.log('he was born in the 21st century');
+// }
+// console.log(`he is ${century} years old and can start driving`);
+
+// If else challenge
+
+let markHeight=parseFloat(prompt(`Enter Marks height:`));
+let markWeight=parseFloat(prompt(`Enter Marks weight:`));
+let johnHeight=parseFloat(prompt(`Enter john height:`));
+let johnWeight=parseFloat(prompt(`Enter john weight:`));
+// const markHeight=2.3
+
+// const markWeight=78;
+
+// const johnHeight=2.3;
+
+// const johnWeight=78;
+
+let markBMI=markWeight/(markHeight**2);
+
+let johnBMI=johnWeight/(johnHeight**2);
+
+if (markBMI>johnBMI){
+  console.log(`Mark's BMI ${markBMI} is higher than John's BMI ${johnBMI}`);
+}else if(markBMI<johnBMI) {
+  console.log(`John's BMI ${johnBMI} is higher than Mark's BMI ${markBMI}`);
 }else{
-  century=21;
-  console.log('he was born in the 21st century');
+  console.log(`Mark's BMI ${markBMI} is equal to John's BMI ${johnBMI}`);
 }
-console.log(`he is ${century} years old and can start driving`);
