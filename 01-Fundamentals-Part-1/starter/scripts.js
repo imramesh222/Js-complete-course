@@ -61,18 +61,25 @@
 
 //cooding challenge 1
 
-const markMass=78;
+// const markMass=78;
 
-const markHeight=1.69;
+// const markHeight=1.69;
 
-const johnMass=92;
+// const johnMass=92;
 
-const johnHeight=1.95;
+// const johnHeight=1.95;
 
-const markBMI=markMass/(markHeight**2);
-const johnBMI=johnMass/(johnHeight**2);
-console.log(markBMI);
-console.log(johnBMI);
+// const markBMI=markMass/(markHeight**2);
+// const johnBMI=johnMass/(johnHeight**2);
+// console.log(markBMI);
+// console.log(johnBMI);
 
-let markHigherBMI=(markBMI > johnBMI)
-console.log(markHigherBMI);
+// let markHigherBMI=(markBMI > johnBMI)
+// console.log(markHigherBMI);
+
+const firstName ='John';
+const job ='teacher';
+const birthYear=1992;
+const year =2038;
+const john ="I'm " + firstName + ', a ' +(year - birthYear) + ' years old ' + job + '!';
+console.log(john)
