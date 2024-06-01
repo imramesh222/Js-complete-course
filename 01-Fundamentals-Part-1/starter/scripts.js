@@ -77,26 +77,48 @@
 // let markHigherBMI=(markBMI > johnBMI)
 // console.log(markHigherBMI);
 
-const firstName ='John';
-const job ='teacher';
-const birthYear=1992;
-const year =2038;
-const john ="I'm " + firstName + ', a ' +(year - birthYear) + ' years old ' + job + '!';
-console.log(john);
+// const firstName ='John';
+// const job ='teacher';
+// const birthYear=1992;
+// const year =2038;
+// const john ="I'm " + firstName + ', a ' +(year - birthYear) + ' years old ' + job + '!';
+// console.log(john);
 
-const johnNew=`I'm ${firstName}, a ${year-birthYear} years old ${job}!`;
-console.log(johnNew);
+// const johnNew=`I'm ${firstName}, a ${year-birthYear} years old ${job}!`;
+// console.log(johnNew);
 
-const lastName='Rawat';
-const hobby='Coder'
-const age=24;
-const detail=`I'm ${lastName} a ${age} years old ${hobby}.`
-console.log(detail);
-// multi line string
-console.log(`string
-multiple
-lines`)
-console.log('string\n\
-multiple \n\
-lines');
+// const lastName='Rawat';
+// const hobby='Coder'
+// const age=24;
+// const detail=`I'm ${lastName} a ${age} years old ${hobby}.`
+// console.log(detail);
+// // multi line string
+// console.log(`string
+// multiple
+// lines`)
+// console.log('string\n\
+// multiple \n\
+// lines');
 
+
+// if else statements
+
+// const age=14;
+
+// if (age>=18) {
+//   console.log(`he is ${age} years old and can start driving`);
+// }else{
+//   const yearsLeft=18-age;
+//   console.log(`he is ${age} years old and can't start driving he has ${yearsLeft} years left`);
+// }
+
+const birthYear =2012;
+let century;
+if (birthYear<=2000){
+  century=20;
+  console.log('he was born in the 20th century');
+}else{
+  century=21;
+  console.log('he was born in the 21st century');
+}
+console.log(`he is ${century} years old and can start driving`);
