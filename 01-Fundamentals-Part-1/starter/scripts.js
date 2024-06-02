@@ -206,10 +206,46 @@
 //   console.log(`he is ${age} years old`);
 // }
 
-const age = '18';
-if (age===18)
-  console.log('He just been 18 years old (strictly)');
+// const age = '18';
+// if (age===18)
+//   console.log('He just been 18 years old (strictly)');
 
 
-if (age=='18')
-  console.log('He just been 18 years old(loosely)');
+// if (age=='18')
+//   console.log('He just been 18 years old(loosely)');
+
+// const fav_num=prompt('What is your favorite number?');
+// console.log(fav_num);
+// console.log(typeof fav_num);
+// if (fav_num==23) {
+//   console.log('It is a number');
+// }
+
+// if (fav_num!=23){
+//   console.log('NOpe, not 23 ?')
+// }else{
+//   console.log('Its  23');
+// }
+
+
+
+// Boolean Logic :AND,OR,NOT
+
+// loogical operators
+
+const hasDriversLiscense=true;
+const hasGoodVision=true;
+
+// console.log(hasDriversLiscense && hasGoodVision);
+
+// console.log(hasDriversLiscense || hasGoodVision);
+
+// console.log(!hasDriversLiscense);
+
+const shouldDrive=hasDriversLiscense && hasGoodVision;
+console.log(shouldDrive);
+if(shouldDrive) {
+  console.log(`Sarah is able to drive`);
+}else{
+  console.log('Sarah is not able to drive')
+}
