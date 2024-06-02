@@ -206,6 +206,10 @@
 //   console.log(`he is ${age} years old`);
 // }
 
-const age = 18;
+const age = '18';
 if (age===18)
-  console.log('He just been 18 years old');
+  console.log('He just been 18 years old (strictly)');
+
+
+if (age=='18')
+  console.log('He just been 18 years old(loosely)');
