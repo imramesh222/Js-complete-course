@@ -17,9 +17,12 @@
     logger();
     logger();
 
-    function fruitProcessor(){
-      
+    function fruitProcessor(apple,orange){
+      console.log(apple,orange);
+      const juice=`juice with ${apple} apples and ${orange} oranges.`;
+      return juice;
     }
+    fruitProcessor(5,7);
   </script>
 </body>
 </html>
