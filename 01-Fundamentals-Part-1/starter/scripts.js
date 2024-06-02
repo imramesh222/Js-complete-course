@@ -244,7 +244,16 @@ const hasGoodVision=true;
 
 const shouldDrive=hasDriversLiscense && hasGoodVision;
 console.log(shouldDrive);
-if(shouldDrive) {
+// if(shouldDrive) {
+//   console.log(`Sarah is able to drive`);
+// }else{
+//   console.log('Sarah is not able to drive')
+// }
+
+const isTired=false;
+console.log(hasDriversLiscense &&hasGoodVision && isTired);
+
+if(hasDriversLiscense && hasGoodVision && !isTired){
   console.log(`Sarah is able to drive`);
 }else{
   console.log('Sarah is not able to drive')
