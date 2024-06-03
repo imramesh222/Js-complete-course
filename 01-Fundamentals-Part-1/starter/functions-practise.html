@@ -9,24 +9,43 @@
 
 
   <script>
-    function logger(){
-      console.log('My name is Jonas');
-    }
-    //calling running or invoking functons
-    logger();
-    logger();
-    logger();
+    // function logger(){
+    //   console.log('My name is Jonas');
+    // }
+    // //calling running or invoking functons
+    // logger();
+    // logger();
+    // logger();
 
-    function fruitProcessor(apple,orange){
-      console.log(apple,orange);
-      const juice=`juice with ${apple} apples and ${orange} oranges.`;
-      return juice;
-    }
-    const appleJuice=fruitProcessor(5,7);
-    console.log(appleJuice)
+    // function fruitProcessor(apple,orange){
+    //   console.log(apple,orange);
+    //   const juice=`juice with ${apple} apples and ${orange} oranges.`;
+    //   return juice;
+    // }
+    // const appleJuice=fruitProcessor(5,7);
+    // console.log(appleJuice)
 
-    const appleOrangeJuic=fruitProcessor(2,4);
-    console.log(appleOrangeJuic);
+    // const appleOrangeJuic=fruitProcessor(2,4);
+    // console.log(appleOrangeJuic);
+    
+
+
+    //functtion declaration 
+    function calcAge1(birthYear){
+      const age=2037-birthYear
+      return age;
+    }
+    const age1=calcAge1(2020);
+    console.log(age1);
+    //function expression 
+    const calcAge2=function  (birthYear){
+      return 2037-birthYear;
+    }
+    const age2=calcAge2(1991);
+    console.log(age1, age2);
+
+
+
   </script>
 </body>
 </html>
