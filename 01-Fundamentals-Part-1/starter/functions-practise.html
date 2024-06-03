@@ -30,19 +30,44 @@
     
 
 
-    //functtion declaration 
-    function calcAge1(birthYear){
-      const age=2037-birthYear
-      return age;
-    }
-    const age1=calcAge1(2020);
-    console.log(age1);
-    //function expression 
+    // //functtion declaration 
+    // function calcAge1(birthYear){
+    //   const age=2037-birthYear
+    //   return age;
+    // }
+    // const age1=calcAge1(2020);
+    // console.log(age1);
+    // //function expression 
+    // const calcAge2=function  (birthYear){
+    //   return 2037-birthYear;
+    // }
+    // const age2=calcAge2(1991);
+    // console.log(age1, age2);
+
+
+     //function expression 
     const calcAge2=function  (birthYear){
       return 2037-birthYear;
     }
-    const age2=calcAge2(1991);
-    console.log(age1, age2);
+
+    // //Arrow function
+    const calcAge3=birthYear=>2037-birthYear;
+    const age3=calcAge3(2022)
+    console.log(age3);
+
+
+    const yearsUntillRetirement=(birthYear,firstName)=>{
+      const age=2037-birthYear;
+      const retirement=65-age;
+      // return retirement;
+      return `${firstName} is ${age} years old`
+    }
+    const first=yearsUntillRetirement(2002,'Ramesh')
+    const second=yearsUntillRetirement(1991,'Hari')
+    console.log(first);
+    console.log(second);
+
+
 
 
 
