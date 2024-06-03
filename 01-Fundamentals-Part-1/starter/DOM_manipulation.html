@@ -4,6 +4,38 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DOM</title>
+  <style>
+    body{
+      font-family: arial;
+    }
+    header{
+      background-color: green;
+      color: white;
+      padding: 15px 0px 20px 40px;
+    }
+    h2#header-title{
+      padding: 10px 0px;
+    }
+    div#content{
+      padding: 15px 0px 0px 45px;
+    }
+    div#content>h4{
+      border-bottom: 2px solid green;
+      padding: 0px 20px 10px 5px;
+      display: inline-block;
+      width: 20%;
+    }
+    li .list-item{
+      border-top: 20px;
+      padding: 10px 0px;
+    }
+    form{
+      padding-top: 20px;
+    }
+    form>input,button{
+      padding: 5px;
+    }
+  </style>
 </head>
 <body>
   <header id="header">
@@ -13,10 +45,10 @@
   <div id="content">
     <h4>Courses</h4>
     <ul id="items">
-      <li class="list-item">Graphics</li>
-      <li class="list-item">Web</li>
-      <li class="list-item">Video</li>
-      <li class="list-item">3D</li>
+      <li class="list-item">Graphics</li><hr>
+      <li class="list-item">Web</li><hr>
+      <li class="list-item">Video</li><hr>
+      <li class="list-item">3D</li><hr>
     </ul>
     <form>
       <input type="text">
@@ -26,7 +58,17 @@
 
 
   <script>
+    let headerTitle=document.getElementById('header-title');
+    // headerTitle.textContent='Computer course';
+    // headerTitle.innerText='Pro course';
+    // console.log(headerTitle);
 
+    headerTitle.innerHTML='<h1>Hello</h1'
+
+    headerTitle.style.borderBottom='3px solid red'
+
+    let topHeader=document.getElementById('header');
+    topHeader.style.borderBottom='3px solid red';
   </script>
   
 </body>
