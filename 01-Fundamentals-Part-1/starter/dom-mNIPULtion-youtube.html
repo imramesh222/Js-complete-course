@@ -11,15 +11,22 @@
 
   <script>
     ////////query Selection and changing html attributes
-    // let a=document.querySelector('h1')
+    let a=document.querySelector('h1')
     // a.innerHTML='Ramesh Rawat'
-    let a=document.querySelector('h1');
-    a.innerHTML='Changed HTML'
+    // let a=document.querySelector('h1');
+    // a.innerHTML='Changed HTML'
 
     ////Changing css
 
-    a.style.color="red"
-    a.style.backgroundColor='yellow'
+    // a.style.color="red"
+    // a.style.backgroundColor='yellow'
+
+    ////Event listner
+    a.addEventListener('click',function(){
+      a.innerHTML='I am changed'
+      a.style.color='red'
+      a.style.backgroundColor='yellow'
+    })
 
 
 
